@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "blog server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "keywords": [
+    "blog",
+    "server"
+  ],
+  "author": "saintpeters",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.28.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}
