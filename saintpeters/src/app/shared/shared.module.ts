@@ -1,8 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HeaderComponent, FooterComponent, AvatarComponent } from './components';
-import { PageTypePipe } from './pipes';
-
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {HeaderComponent, FooterComponent, AvatarComponent} from './components';
+import {PageTypePipe} from './pipes';
 
 
 @NgModule({
@@ -16,4 +15,5 @@ import { PageTypePipe } from './pipes';
     AvatarComponent
   ]
 })
-export class SharedModule { }
+export class SharedModule {
+}
